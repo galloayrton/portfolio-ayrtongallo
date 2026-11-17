@@ -33,5 +33,7 @@
   try { const s = localStorage.getItem("lang"); if (s === "en" || s === "es") lang = s; } catch (e) {}
   if (lang !== "en" && lang !== "es") lang = (navigator.language || "").toLowerCase().indexOf("es") === 0 ? "es" : "en";
   PF.state.lang = lang;
+  PF.theme.init();
   PF.render();
+  if (PF.background) PF.background.start();
 })();

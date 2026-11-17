@@ -43,3 +43,4 @@ ul.sk li{background:var(--bg);border:1px solid var(--line);border-radius:6px;pad
 .tl{border-left:2px solid var(--line);padding-left:18px;margin-left:4px}
 .tl div{margin-bottom:20px}.tl b{display:block}.tl small{color:var(--muted)}
 footer{padding:36px 0 48px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
