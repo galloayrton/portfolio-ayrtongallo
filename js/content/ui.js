@@ -14,5 +14,5 @@ PF.content.ui = {
   view:       T("View project →", "Ver proyecto →"),
   resume:     T("Résumé (PDF)", "CV (PDF)"),
   themeLabel: T("Toggle light/dark theme", "Cambiar tema claro/oscuro"),
-  langLabel:  T("Switch to Spanish", "Cambiar a inglés")
+  langLabel:  T("Switch to Spanish", "Cambiar a Inglés")
 };
