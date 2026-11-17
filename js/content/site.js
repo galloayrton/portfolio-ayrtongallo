@@ -9,5 +9,6 @@ PF.content.site = {
     { id: "education", title: "eduTitle" },
     { id: "contact" }
   ],
-  defaultLang: "auto"   // "en", "es", or "auto" (uses the visitor’s browser language)
+  defaultLang: "auto",   // "en", "es", or "auto" (uses the visitor’s browser language)
+  scrollDuration: 1200   // milliseconds for navbar scrolling: 600 = quick, 1200 = relaxed, 2000 = slow, 0 = instant
 };

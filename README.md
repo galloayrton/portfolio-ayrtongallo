@@ -13,7 +13,7 @@ All content lives in `js/content/`. The HTML contains no text.
 | `projects.js` | Projects (copy a block to add one) |
 | `education.js` | Education and experience timeline |
 | `ui.js` | Menu, headings and button labels |
-| `site.js` | Which sections show, and in what order |
+| `site.js` | Which sections show, their order, and scroll speed (`scrollDuration`) |
 
 Text that changes with the language is written `T("English", "Español")`.
 
