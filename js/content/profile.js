@@ -7,19 +7,19 @@ PF.content.profile = {
 
   // The big headline, in pieces. cls "e" = orange, "d" = blue, no cls = normal text.
   headline: [
-    { text: T("I design ", "Diseño ") },
-    { text: T("circuits", "circuitos"), cls: "e" },
-    { text: T(" and find the ", " y encuentro la ") },
-    { text: T("signal", "señal"), cls: "d" },
-    { text: T(" in data.", " en los datos.") }
+    { text: T("I analyze ", "Analizo ") },
+    { text: T("electrical systems", "sistemas eléctricos"), cls: "e" },
+    { text: T(" with ", " con ") },
+    { text: T("data", "datos"), cls: "d" },
+    { text: T(".", ".") }
   ],
 
-  lead: T("Electrical engineering student building at the intersection of hardware, signals and data science. Replace this line with your name, university and what you’re looking for.",
-          "Estudiante de ingeniería eléctrica que trabaja entre el hardware, las señales y la ciencia de datos. Reemplaza esta línea con tu nombre, universidad y lo que buscas."),
+  lead: T("Electrical engineering student who works software-first: power systems, signals and the data they generate. I like turning measurements into models and decisions.",
+          "Estudiante de ingeniería eléctrica con enfoque en software: sistemas de potencia, señales y los datos que generan. Me gusta convertir mediciones en modelos y decisiones."),
 
-  about: T("I’m a [year]-year Electrical Engineering student at [University]. I enjoy the full path from sensor to insight: designing the hardware that captures a signal, then using data analysis and machine learning to make sense of it. Add two or three sentences about what drives you.",
-           "Soy estudiante de [año] año de Ingeniería Eléctrica en [Universidad]. Disfruto todo el recorrido del sensor al conocimiento: diseñar el hardware que captura una señal y luego usar análisis de datos y aprendizaje automático para darle sentido. Agrega dos o tres frases sobre lo que te motiva."),
+  about: T("I’m a [year]-year Electrical Engineering student at [University]. What draws me to the field is the theory and the systems behind it: power, energy, signals and control. What I enjoy most is the data: cleaning it, modeling it and finding out what it says. I’m looking for [internship / thesis / role] in [data analytics / energy / power systems].",
+           "Soy estudiante de [año] año de Ingeniería Eléctrica en [Universidad]. Lo que me atrae de la carrera es la teoría y los sistemas que hay detrás: potencia, energía, señales y control. Lo que más disfruto son los datos: limpiarlos, modelarlos y descubrir lo que dicen. Busco [pasantía / tesis / puesto] en [análisis de datos / energía / sistemas de potencia]."),
 
-  contact: T("Open to internships, collaborations and conversations about hardware and data.",
-             "Abierto a pasantías, colaboraciones y conversaciones sobre hardware y datos.")
+  contact: T("Open to data, analytics and energy-related internships, thesis projects and collaborations.",
+             "Abierto a pasantías, tesis y colaboraciones en datos, analítica y energía.")
 };

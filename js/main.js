@@ -20,6 +20,7 @@
     app.replaceChildren(S.nav(), main, S.footer());
     PF.newTabLinks();
     window.scrollTo(0, y);
+    if (PF.background) PF.background.refresh();
   };
 
   PF.setLang = function (l) {

@@ -18,6 +18,7 @@ PF.content.site = {
     enabled: true,        // false removes it
     spacing: 28,          // pixels between dots
     radius: 170,          // size of the glow around the mouse
-    dot: 1.1              // resting dot size
+    dot: 1.1,             // resting dot size
+    textShield: 0.06      // glow strength behind text: 0 = none, 0.06 = barely visible, 1 = no shielding
   }
 };

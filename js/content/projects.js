@@ -1,28 +1,29 @@
 /* PROJECTS: copy a { ... } block to add one.
-   kinds: ["ee"], ["data"] or ["ee", "data"].  link: optional URL ("" for none). */
+   kinds: ["ee"], ["data"] or ["ee", "data"].  link: optional URL ("" for none).
+   These are example ideas: replace each with something you really did. */
 PF.content.projects = [
-  { title: T("Project title", "Título del proyecto"), kinds: ["ee"],
-    description: T("One or two sentences: the problem, what you built, and the result (e.g. a 12 V buck converter with 92% efficiency).",
-                   "Una o dos frases: el problema, lo que construiste y el resultado (p. ej. un convertidor reductor de 12 V con 92% de eficiencia)."),
-    stack: ["KiCad", "STM32", "C"], link: "" },
-
-  { title: T("Project title", "Título del proyecto"), kinds: ["data"],
-    description: T("What question you asked, which dataset you used, and what you found (e.g. a model that predicts X with Y% accuracy).",
-                   "Qué pregunta te hiciste, qué datos usaste y qué encontraste (p. ej. un modelo que predice X con Y% de precisión)."),
+  { title: T("Electricity demand forecasting", "Pronóstico de demanda eléctrica"), kinds: ["ee", "data"],
+    description: T("Predict electricity load from historical consumption and weather data. Describe the dataset, the model you chose and how accurate it was (e.g. MAPE of X%).",
+                   "Predice la carga eléctrica a partir de datos históricos de consumo y clima. Describe los datos, el modelo elegido y su precisión (p. ej. MAPE de X%)."),
     stack: ["Python", "pandas", "scikit-learn"], link: "" },
 
-  { title: T("Project title", "Título del proyecto"), kinds: ["ee"],
-    description: T("Describe a lab, course or personal build: an amplifier, FPGA design, motor controller or similar.",
-                   "Describe un laboratorio, curso o proyecto personal: un amplificador, un diseño en FPGA, un controlador de motor o similar."),
-    stack: ["Verilog", "Vivado", "MATLAB"], link: "" },
-
-  { title: T("Project title", "Título del proyecto"), kinds: ["data"],
-    description: T("An analysis or dashboard, with the insight it produced and the tools you used.",
-                   "Un análisis o panel de control, con la conclusión que produjo y las herramientas que usaste."),
+  { title: T("Dataset exploration and dashboard", "Exploración de datos y panel de control"), kinds: ["data"],
+    description: T("What question you asked, which dataset you used and what you found, presented as an interactive dashboard.",
+                   "Qué pregunta te hiciste, qué datos usaste y qué encontraste, presentado como un panel interactivo."),
     stack: ["SQL", "Python", "Plotly"], link: "" },
 
-  { title: T("Sensor data pipeline", "Pipeline de datos de sensores"), kinds: ["ee", "data"],
-    description: T("Your crossover project: collect sensor readings with a microcontroller, then clean, analyze and visualize them.",
-                   "Tu proyecto combinado: recolecta lecturas de sensores con un microcontrolador, luego límpialas, analízalas y visualízalas."),
-    stack: ["Arduino", "Python", "SciPy"], link: "" }
+  { title: T("Power flow study of a small grid", "Estudio de flujo de potencia de una red pequeña"), kinds: ["ee"],
+    description: T("Model a small network and analyze voltages and losses under different loads. Describe the system, the method and what the results showed.",
+                   "Modela una red pequeña y analiza tensiones y pérdidas bajo distintas cargas. Describe el sistema, el método y lo que mostraron los resultados."),
+    stack: ["Python", "pandapower", "MATLAB"], link: "" },
+
+  { title: T("Signal analysis", "Análisis de señales"), kinds: ["ee", "data"],
+    description: T("Filtering and spectral analysis of a real-world signal (for example grid frequency, vibration or ECG data), and what it revealed.",
+                   "Filtrado y análisis espectral de una señal real (por ejemplo frecuencia de la red, vibraciones o ECG) y lo que reveló."),
+    stack: ["Python", "SciPy", "MATLAB"], link: "" },
+
+  { title: T("Control system simulation", "Simulación de un sistema de control"), kinds: ["ee"],
+    description: T("Model a system and tune a controller in simulation. Include the goal, the approach and the performance you achieved.",
+                   "Modela un sistema y ajusta un controlador en simulación. Incluye el objetivo, el enfoque y el desempeño que lograste."),
+    stack: ["MATLAB", "Simulink", "Python"], link: "" }
 ];
