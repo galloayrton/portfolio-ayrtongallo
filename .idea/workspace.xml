@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd18d346-c647-4a61-bc6e-c9489f68c20b" name="Changes" comment="" />
+    <list default="true" id="fd18d346-c647-4a61-bc6e-c9489f68c20b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,23 +18,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7115494264446536" />
-      <entry key="MS500" value="4.917822063533153" />
-      <entry key="S2" value="13.752479602825625" />
-      <entry key="S5" value="23.541069635532086" />
-      <entry key="S10" value="31.919048454771087" />
-      <entry key="S30" value="45.48547940964336" />
-      <entry key="S60" value="54.48560499718748" />
-      <entry key="M2" value="63.64039935416041" />
-      <entry key="M5" value="87.60757206529783" />
-      <entry key="M10" value="119.6213648307412" />
-      <entry key="M15" value="138.597661755468" />
-      <entry key="M30" value="164.5043182878726" />
-      <entry key="H1" value="180.85131602877198" />
-      <entry key="H2" value="190.04641754647042" />
-      <entry key="H4" value="194.92450570966807" />
-      <entry key="D1" value="199.14003202421068" />
-      <entry key="W1" value="199.87679872493553" />
+      <entry key="MS100" value="1.730972186111162" />
+      <entry key="MS500" value="4.869420076672136" />
+      <entry key="S2" value="15.001363320960408" />
+      <entry key="S5" value="25.142157758088935" />
+      <entry key="S10" value="30.999879086527205" />
+      <entry key="S30" value="36.0449727341372" />
+      <entry key="S60" value="37.4827136276355" />
+      <entry key="M2" value="38.23111335854399" />
+      <entry key="M5" value="38.8204490319342" />
+      <entry key="M10" value="43.46147854055848" />
+      <entry key="M15" value="54.72522294092773" />
+      <entry key="M30" value="94.54176587741769" />
+      <entry key="H1" value="144.10864546604023" />
+      <entry key="H2" value="183.8881226427969" />
+      <entry key="H4" value="209.19856042731664" />
+      <entry key="D1" value="233.68858704241632" />
+      <entry key="W1" value="238.23232822699578" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -53,23 +56,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.630703557256536" />
-      <entry key="MS500" value="4.849212920012574" />
-      <entry key="S2" value="13.714998295517603" />
-      <entry key="S5" value="23.516765945842838" />
-      <entry key="S10" value="31.902807851188154" />
-      <entry key="S30" value="45.47786400812965" />
-      <entry key="S60" value="54.48096800347617" />
-      <entry key="M2" value="63.63744855094991" />
-      <entry key="M5" value="87.60469663542054" />
-      <entry key="M10" value="119.61854195270354" />
-      <entry key="M15" value="138.59521395820389" />
-      <entry key="M30" value="164.5027032979118" />
-      <entry key="H1" value="180.85038422984016" />
-      <entry key="H2" value="190.04591657283248" />
-      <entry key="H4" value="194.92424590502665" />
-      <entry key="D1" value="199.1399873801834" />
-      <entry key="W1" value="199.87679231366337" />
+      <entry key="MS100" value="1.6649504555532324" />
+      <entry key="MS500" value="4.808341135736318" />
+      <entry key="S2" value="14.9636942607896" />
+      <entry key="S5" value="25.117116572186198" />
+      <entry key="S10" value="30.984237138448062" />
+      <entry key="S30" value="36.03882890929942" />
+      <entry key="S60" value="37.47950681902761" />
+      <entry key="M2" value="38.229474652790195" />
+      <entry key="M5" value="38.81978058395615" />
+      <entry key="M10" value="43.46103604107319" />
+      <entry key="M15" value="54.7247206914575" />
+      <entry key="M30" value="94.5411085874397" />
+      <entry key="H1" value="144.10804798592764" />
+      <entry key="H2" value="183.88771276670866" />
+      <entry key="H4" value="209.19831961328703" />
+      <entry key="D1" value="233.68854106962522" />
+      <entry key="W1" value="238.23232150402995" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -77,6 +80,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3MDaTXlv6grpAw4yTKDP4DXIQw6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -85,6 +91,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -94,13 +101,14 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.202" />
+        <option value="bundled-python-sdk-34611be1ca5a-e0583fc556d1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-263.7307.206" />
       </set>
     </attachedChunks>
   </component>
@@ -112,7 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1794887600173</updated>
       <workItem from="1794887601363" duration="474000" />
-      <workItem from="1794888088621" duration="2087000" />
+      <workItem from="1794888088621" duration="2825000" />
+      <workItem from="1794891906228" duration="291000" />
     </task>
     <servers />
   </component>
