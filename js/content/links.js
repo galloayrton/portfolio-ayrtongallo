@@ -1,7 +1,9 @@
-/* LINKS: used by the hero and contact buttons. */
+/* LINKS: used by the hero and contact buttons.
+   resume: one PDF per language. Put the files in the resume/ folder with these names.
+   Set a path to "" to hide the résumé button for that language. */
 PF.content.links = {
   github: "https://github.com/galloayrton",
   linkedin: "https://www.linkedin.com/in/ayrtongallo",
   email: "ayrton.ngs@gmail.com",
-  resume: "#"          // replace with the path or URL of your résumé PDF
+  resume: { en: "resume/resume-en.pdf", es: "resume/resume-es.pdf" }
 };

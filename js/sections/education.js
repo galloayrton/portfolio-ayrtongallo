@@ -5,5 +5,5 @@ PF.sections.education = function () {
     if (PF.t(x.text)) kids.push(e("br"), PF.t(x.text));
     return e("div", {}, kids);
   });
-  return PF.section("education", "eduTitle", [e("div", { "class": "tl" }, items)]);
+  return PF.section("education", "education", [e("div", { "class": "tl" }, items)]);
 };

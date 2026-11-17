@@ -44,3 +44,12 @@ ul.sk li{background:var(--bg);border:1px solid var(--line);border-radius:6px;pad
 .tl div{margin-bottom:20px}.tl b{display:block}.tl small{color:var(--muted)}
 footer{padding:36px 0 48px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 #bg{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+.ib.flag{padding:0 6px;opacity:.5}
+.ib.flag.on{opacity:1;border-color:var(--accent)}
+.ib.flag svg{width:24px;height:16px;border-radius:2px;display:block}
+.stats{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:26px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 20px}
+.stat b{display:block;font-size:26px;letter-spacing:-.01em}
+.stat span{color:var(--muted);font-size:14px}
+.tl ul{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:15px}
+.tl li{margin-bottom:4px}
