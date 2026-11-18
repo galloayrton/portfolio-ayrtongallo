@@ -4,6 +4,7 @@ PF.content.profile = {
   logo: "AyrtonGallo",                      // top-left of the navbar
   pageTitle: T("Ayrton Gallo – Data & Electrical Engineering Portfolio", "Ayrton Gallo – Portafolio de Datos e Ingeniería Eléctrica"),
   tag: T("// data × electrical engineering", "// datos × ingeniería eléctrica"),
+  location: T("Córdoba, Argentina", "Córdoba, Argentina"),
 
   // The big headline, in pieces. cls "e" = orange, "d" = blue, no cls = normal text.
   headline: [
@@ -14,11 +15,16 @@ PF.content.profile = {
     { text: T(".", ".") }
   ],
 
-  lead: T("Data-focused professional with 2+ years in tech, building ETL pipelines, dashboards and automation. Electrical Engineering student at UTN-FRC (Córdoba, Argentina), focused on renewable energy, power grids and automatic control.",
-      "Profesional enfocado en datos con más de 2 años en tecnología, construyendo pipelines ETL, dashboards y automatización. Estudiante de Ingeniería Eléctrica en la UTN-FRC (Córdoba, Argentina), con foco en energías renovables, redes eléctricas y control automático."),
+  lead: T("Data-focused professional with 2+ years in tech, building ETL pipelines, dashboards and automation. Electrical Energy Engineering student at UTN-FRC, with prior computer science studies at UNC-FAMAF. Based in Córdoba, Argentina.",
+          "Profesional enfocado en datos con más de 2 años en tecnología, construyendo pipelines ETL, dashboards y automatización. Estudiante de Ingeniería en Energía Eléctrica en la UTN-FRC, con estudios previos de Ciencias de la Computación en la UNC-FAMAF. Radicado en Córdoba, Argentina."),
 
-  about: T("I build data pipelines and dashboards, turning raw data into something teams can use. Prediction is what got me into data: seeing a model anticipate what comes next blew my mind and made me fall for math. I like having information and being in control, and I don’t like uncertainty. That same curiosity about how things work is why I study electrical engineering, where I’m drawn to renewable energy, power grids and automatic control. I’m open to roles in data (analytics, engineering, ML/AI) and, as my degree advances, in energy and power systems.",
-      "Construyo pipelines de datos y dashboards, y convierto datos crudos en información que los equipos pueden usar. Lo que me acercó a los datos fue la predicción: ver que un modelo anticipa lo que viene me voló la cabeza y me hizo enamorarme de la matemática. Me gusta tener información y tener el control, y no me gusta la incertidumbre. Esa misma curiosidad por entender cómo funcionan las cosas es la razón por la que estudio ingeniería eléctrica, donde me atraen las energías renovables, las redes eléctricas y el control automático. Estoy abierto a roles en datos (análisis, ingeniería, ML/IA) y, a medida que avance en la carrera, en energía y sistemas de potencia."),
+  // Each item is one paragraph.
+  about: [
+    T("I turn raw data into something teams can use: ETL pipelines, dashboards and automation. Prediction is what got me into data. Seeing a model anticipate what comes next blew my mind and made me fall for math.",
+      "Convierto datos crudos en algo que los equipos pueden usar: pipelines ETL, dashboards y automatización. Lo que me acercó a los datos fue la predicción: ver que un modelo anticipa lo que viene me voló la cabeza y me hizo enamorarme de la matemática."),
+    T("That same curiosity about how things work led me to electrical engineering. I’m studying Electrical Energy Engineering at UTN-FRC, drawn to renewable energy, power grids and automatic control, after earlier computer science studies at UNC-FAMAF.",
+      "Esa misma curiosidad por entender cómo funcionan las cosas me llevó a la ingeniería eléctrica. Estudio Ingeniería en Energía Eléctrica en la UTN-FRC, atraído por las energías renovables, las redes eléctricas y el control automático, tras mis estudios previos de Ciencias de la Computación en la UNC-FAMAF.")
+  ],
 
   // Numbers shown under the About text. Remove or edit freely.
   highlights: [
@@ -28,5 +34,5 @@ PF.content.profile = {
   ],
 
   contact: T("Open to data roles (analytics, engineering, ML/AI) and, over time, energy and power systems work. Let’s talk.",
-      "Abierto a roles en datos (análisis, ingeniería, ML/IA) y, con el tiempo, a trabajo en energía y sistemas de potencia. Hablemos.")
+             "Abierto a roles en datos (análisis, ingeniería, ML/IA) y, con el tiempo, a trabajo en energía y sistemas de potencia. Hablemos.")
 };

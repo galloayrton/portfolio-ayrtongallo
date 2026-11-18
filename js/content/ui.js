@@ -12,7 +12,9 @@ PF.content.ui = {
   all:        T("All", "Todos"),
   ee:         T("Electrical", "Eléctrico"),
   data:       T("Data", "Datos"),
+  cs:         T("Computer science", "Ciencias de la computación"),
   view:       T("View project →", "Ver proyecto →"),
-  resume:     T("Résumé (PDF)", "CV (PDF)"),
+  resumeEn:   T("Résumé (English)", "CV en inglés"),
+  resumeEs:   T("Résumé (Spanish)", "CV en español"),
   themeLabel: T("Toggle light/dark theme", "Cambiar tema claro/oscuro")
 };

@@ -7,7 +7,7 @@ PF.content.site = {
     { id: "experience" },
     { id: "skills" },
     { id: "interests" },
-    { id: "projects" },
+    // { id: "projects" },   // remove the // to show Projects once you have real ones (see js/content/projects.js)
     { id: "education" },
     { id: "contact" }
   ],
